@@ -1,0 +1,37 @@
+ 
+  /*Using the Arial font for the entire page. 
+  Center all the text on the page and add some space around the edges.*/
+ 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+ 
+ /* Add some space above the button container.*/
+.button-container {
+    margin-top: 20px;
+}
+
+ /* Style all buttons: 
+   Add a little space around each button.
+   Make the buttons a bit bigger by adding padding inside.
+    Set the text size inside the buttons.
+ */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+ 
+ /* Style the story text:
+   Add some space above it.
+Make the text a bit bigger and bold.
+ */
+#story-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
